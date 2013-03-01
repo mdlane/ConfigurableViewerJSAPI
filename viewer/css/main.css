@@ -5,7 +5,7 @@ body, html {
     padding: 0;
 }
 
-.header {
+header {
     background: url("../images/linen.jpg") repeat-x scroll left top transparent;
     height: 70px;
     margin: 0;
@@ -13,14 +13,14 @@ body, html {
     width: 100%;
 }
 
-.header .headerLogo {
+header .headerLogo {
     float: left;
     left: 30px;
     position: relative;
     top: 8px;
 }
 
-.header .headerTitle {
+header .headerTitle {
     color: #FFFFFF;
     float: left;
     font-size: 16pt;
@@ -30,20 +30,20 @@ body, html {
     position: relative;
 }
 
-.header .subHeaderTitle {
+header .subHeaderTitle {
     color: #CFCFCF;
     font-size: small;
     padding-left: 20px;
 }
 
-.header .search {
+header .search {
     float: left;
     left: 80px;
     position: relative;
     top: 18px;
 }
 
-.header .headerLinks {
+header .headerLinks {
     float: right;
     color: #FFFFFF;
     position: relative;
@@ -51,7 +51,7 @@ body, html {
     right: 10px;
 }
 
-.header .headerLinks a {
+header .headerLinks a {
     color: #FFFFFF;
 }
 
